@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript">
+    const oData = {
+      "男生": ["张三","李四"],
+      "女生": ["小红","老王"]
+    };
+
+    console.log("oData:",oData)
+
+    let oArr = new Array();
+    for(i in oData){
+      // for-in循环写法
+      // for(j in oData[i]){
+      //   console.log(oData[i][j]);
+      //   oArr.push(oData[i][j]);
+      // }
+      
+      // forEach循环写法
+      oData[i].forEach((item, index)=>{
+        oArr.push(item);
+      });
+    }
+
+    console.log("结果：",oArr)
+  </script>
+</head>
+<body>
+
+</body>
+</html>
