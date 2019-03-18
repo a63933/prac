@@ -1,2 +1,5 @@
 websocket/node-backend/node_modules
 websocket/frontend/node_modules
+cellphone/node-backend/node_modules
+cellphone/frontend/node_modules
+uuid/node_modules
